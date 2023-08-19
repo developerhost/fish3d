@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import * as THREE from 'three'
 import { useEffect } from 'react'
 import ThreeObj from '@/components/ThreeObj'
+import ThreeObjShark from '@/components/ThreeObjShark'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,7 +14,8 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
       <div>
-        <ThreeObj/>
+        {/* <ThreeObj /> */}
+        <ThreeObjShark />
       </div>
     </main>
   )
