@@ -4,6 +4,7 @@ import * as THREE from 'three'
 import { useEffect } from 'react'
 import ThreeObj from '@/components/ThreeObj'
 import ThreeObjShark from '@/components/ThreeObjShark'
+import GeoOcean from '@/components/GeoOcean'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +16,8 @@ export default function Home() {
     >
       <div>
         {/* <ThreeObj /> */}
-        <ThreeObjShark />
+        {/* <ThreeObjShark /> */}
+        <GeoOcean />
       </div>
     </main>
   )
